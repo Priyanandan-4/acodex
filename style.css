@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#section-one {
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+}
+
+.home-one {
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hero-bg {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 7.5%;
+
+
+}
+
+.spring {
+    position: absolute;
+}
+
+.spring-1 {
+    right: 10%;
+    top: 16%;
+    width: 459.44px;
+    height: 269.56px;
+}
+
+.spring-2 {
+    left: 10%;
+    top: 27%;
+    z-index: 1;
+}
+
+.hero-text {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 130px;
+    color: white;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.text-left {
+    top: 46%;
+    left: -73%;
+}
+
+.text-right {
+    right: -48%;
+    top: 28%;
+}
+
+.circle , .home-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle {
+    position: absolute;
+    z-index: 3;
+    right: 34.5%;
+    top: 40%;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background: linear-gradient(156.12deg, #052842 7.32%, #2A5EA5 48.11%, #7BB885 98.79%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 50px;
+}
+.home-content {
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
+    width: auto;
+    color: #F7FFEFD9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.home-button {
+    position: absolute;
+    right: 45%;
+    bottom: 5%;
+    height: 65px;
+    width: 115px;
+    padding: 5px;
+    border-radius: 50px; 
+    z-index: 20;
+    background-color: white;  
+}
+
+#section-two {
+    width: 100%;
+    height: auto;
+    padding: 90px 0; 
+    background-color: #7BB885;
+    
+}
+
+.underline {
+    height: 1px;
+    background-color: #2B2A29; 
+    width: 98%;
+    margin: 10px auto; 
+} 
+
+
+.unique-heading {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B2A29;
+    text-transform: uppercase;
+   padding: 1%;
+  
+}
+.Brand-heading{
+font-size: 85px;
+font-weight: 400;
+ font-family: Arial, sans-serif;
+ color: #104386;
+ padding: 1%;
+}
+.B2B{
+ 
+    background: linear-gradient(to right, #003087, #7C9AC7);
+    background-clip: text;
+    color: transparent;
+    background-clip: text;
+    color: transparent;
+}
