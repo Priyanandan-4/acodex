@@ -18,3 +18,23 @@ $(document).ready(function () {
         $(".home-button").html('<img src="./asset/icons/logoicon.svg" alt="" />');
     });
 });
+
+
+$(document).ready(function () {
+    let originalContent = $(".bg-1").html(); 
+
+    $(".bg-1").mouseenter(function () {
+        $(this).stop().animate({ width: "200px" }, 500);
+        $(this).html('<div class="animation-div"></div>');
+    });
+
+    $(".bg-1").mouseleave(function () {
+        $(this).stop().animate({ width: "115px" }, 300, function () {
+            $(this).html(originalContent); 
+        });
+    });
+});
+
+
+
+  
