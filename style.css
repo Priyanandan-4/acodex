@@ -493,6 +493,13 @@
   top: 0%;
 }
 
+.text-button{
+  display: flex;
+  align-items: end;
+  text-align:center;
+}
+
+
 .cont-2,
 .cont-4 {
   display: flex;
